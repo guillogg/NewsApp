@@ -30,7 +30,7 @@ private val LightColorScheme = lightColorScheme(
     error = LightRed,
     surface = Color.White
 )
-
+//cambia de color el tema dependiendo  de la configuracion del celular
 @Composable
 fun NewsAppTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
